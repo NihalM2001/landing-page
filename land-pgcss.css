@@ -5,17 +5,30 @@
 }
 
 .main{
-    background-color: rgba(14, 26, 51, 0.788);
+    background-color: #1F2937;
     color: white;
-    padding: 10px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 150px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
 }
 
+
+.navbar{
+    height: 60px;
+}
+
+.navbar,.heading{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
 .container{
     display: flex;
-    justify-content: space-between;
+    justify-content: 
+    space-between;
+    align-items: center;
+    height: 100%;
 }
 
 ul{
@@ -24,7 +37,7 @@ ul{
 
 ul.links{
     display: flex;
-    gap: 5px;
+    gap: 20px;
 }
 
 a{
@@ -35,15 +48,33 @@ a{
 div.intro{
     width: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
-}
+    justify-content: space-between;
+    gap: 200px; 
+    }
 
+div.intro-img{
+    align-self: center;
+}
 div.awweb{
     width: 400px;
+    
 }
 
+p.htext{
+    font-family: Arial, Helvetica, sans-serif ;
+    margin-bottom: 20px;
+}
 
+button{
+    background-color: rgb(10, 74, 212);
+    padding: 8px;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 8px;
+    border:none;
+    color: white;
+}
 
 section.content{
     display: flex;
@@ -51,8 +82,19 @@ section.content{
     align-items: center;
 }
 
+div.sectionhead{
+    margin-bottom: 30px;
+}
+.contenthead{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
 div.images{
     display: flex;
+    justify-content: space-between;
 }
 
 div.img{
@@ -74,7 +116,7 @@ div.image1{
     background-color: lightgrey;
     text-align: center;
     font-size: 28px;
-    height: 400px;
+    height: 350px;
     display: flex;
     margin: auto;
     justify-content: center;
@@ -86,19 +128,21 @@ div.image1{
 div.quoted{
     max-width: 600px;
     width: 100%;
+    text-align: left;
 }
 
 div.author{
     align-self: center;
+    text-align: right;
 }
 footer.footer{
     background-color: rgb(34, 69, 224);
-    border:1px solid black;
-    border-radius: 2px;
+    margin: 10px 250px;
+    border-radius: 10px;
     padding: 20px;
-    margin: auto;
     display: flex;
     justify-content: space-between;
+    color: white;
 }
 
 div.button{
