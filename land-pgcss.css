@@ -7,15 +7,15 @@
 .main{
     background-color: rgba(14, 26, 51, 0.788);
     color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .container{
     display: flex;
     justify-content: space-between;
-}
-
-a{
-    text-decoration: none;
 }
 
 ul{
@@ -27,21 +27,71 @@ ul.links{
     gap: 5px;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
+div.intro{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.awweb{
+    width: 400px;
+}
+
+
+
 section.content{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+div.images{
+    display: flex;
+}
+
+div.img{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 200px;
+}
+
+div.image1{
+    align-self: center;
+    border: 1px solid blue;
+    border-radius: 2px;
+}
+
+
 .quote{
     text-align: center;
     background-color: lightgrey;
     text-align: center;
-    font-size: 20px;
-    height: 200px;
+    font-size: 28px;
+    height: 400px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    /*align-content: center;*/
+    flex-direction: column;
 }
 
-footer{
+div.quoted{
+    max-width: 600px;
+    width: 100%;
+}
+
+div.author{
+    align-self: center;
+}
+footer.footer{
     background-color: rgb(34, 69, 224);
     border:1px solid black;
     border-radius: 2px;
