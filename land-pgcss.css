@@ -2,27 +2,36 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 .main{
     background-color: #1F2937;
     color: white;
-    max-width: 100%;
+    width: 100%;
     margin: 0 auto;
     padding: 0 150px;
     display: flex;
     flex-direction: column;
+    margin-bottom: 30px;
 }
 
 
 .navbar{
-    height: 60px;
+    height: 100px;
+    margin-bottom: 0px;
 }
 
 .navbar,.heading{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
+
+.heading{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
 .container{
     display: flex;
     justify-content: 
@@ -45,11 +54,22 @@ a{
     color: white;
 }
 
+img{
+    width: 250px;
+
+}
+
+img.main-pic{
+    width: 800px;
+    height: 400px;
+    margin-bottom: 20px;
+ }
+
 div.intro{
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    align-items: center;
     gap: 200px; 
     }
 
@@ -79,7 +99,10 @@ button{
 section.content{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
 }
 
 div.sectionhead{
@@ -90,61 +113,85 @@ div.sectionhead{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 div.images{
     display: flex;
-    justify-content: space-between;
-}
+    justify-content: center;
+    align-items: center;gap: 200px;
+} 
 
 div.img{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    max-width: 200px;
+    align-items: center;
 }
 
-div.image1{
+div.text{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 200px;
+}
+
+.image1,.image2,.image3,.image4{
     align-self: center;
-    border: 1px solid blue;
-    border-radius: 2px;
+    width:auto;
+}       
+
+#quote
+{
+    background-color: lightgrey;
 }
-
-
 .quote{
     text-align: center;
-    background-color: lightgrey;
-    text-align: center;
     font-size: 28px;
-    height: 350px;
+    height: 300px;
+    width: 800px;
+    gap: 10px;
     display: flex;
     margin: auto;
+    padding: auto;
     justify-content: center;
     align-items: center;
-    /*align-content: center;*/
     flex-direction: column;
 }
 
 div.quoted{
-    max-width: 600px;
-    width: 100%;
-    text-align: left;
+    font-style: italic;
 }
 
 div.author{
     align-self: center;
-    text-align: right;
+    align-self: flex-end;
+    font-weight: bold;  
 }
 footer.footer{
-    background-color: rgb(34, 69, 224);
-    margin: 10px 250px;
+    background-color: rgb(70, 103, 248);
+    margin: 10px 150px;
     border-radius: 10px;
     padding: 20px;
     display: flex;
     justify-content: space-between;
     color: white;
+    max-width: 100%;
 }
 
+div.footer-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
 div.button{
     align-self: center;
 }
+
+footer.final{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
