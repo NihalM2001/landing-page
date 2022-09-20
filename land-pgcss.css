@@ -55,8 +55,8 @@ a{
 }
 
 img{
-    width: 250px;
-
+    width: 210px;
+    border-radius: 15px;
 }
 
 img.main-pic{
@@ -97,12 +97,11 @@ button{
 }
 
 section.content{
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
-    width: 100%;
-    margin: 0 auto;
 }
 
 div.sectionhead{
