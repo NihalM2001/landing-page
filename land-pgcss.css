@@ -82,7 +82,7 @@ div.awweb{
 }
 
 p.htext{
-    font-family: Arial, Helvetica, sans-serif ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin-bottom: 20px;
 }
 
@@ -109,8 +109,8 @@ div.sectionhead{
     margin-bottom: 30px;
 }
 .contenthead{
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     margin-bottom: 30px;
     text-align: center;
@@ -130,7 +130,7 @@ div.img{
 }
 
 div.text{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     width: 200px;
 }
@@ -179,7 +179,7 @@ footer.footer{
 }
 
 div.footer-text{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
 }
 div.button{
@@ -193,5 +193,6 @@ footer.final{
     justify-content: center;
     align-items: center;
     height: 50px;
+    font-weight: bold;
 }
 
